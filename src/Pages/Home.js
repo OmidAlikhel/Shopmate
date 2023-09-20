@@ -44,7 +44,7 @@ export const Home = ({ title }) => {
   useTitle(`${title}`);
   return (
     <main>
-      <div className="max-w-7xl mx-auto flex justify-start flex-wrap  ">
+      <div className="max-w-7xl mx-auto flex justify-start flex-wrap others:justify-evenly ">
         {products.map((product) => (
           <Card key={product.id} product={product} />
         ))}
