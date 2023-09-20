@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export const Card = ({ product }) => {
   const { name, price, image } = product;
   return (
-    <div className="flex justify-start flex-wrap">
+    <div className="flex justify-start flex-wrap  ">
       <div className="my-8 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-3">
         <Link to={`/`}>
           <img className="rounded-t-lg p-3" src={image} alt={image} />
